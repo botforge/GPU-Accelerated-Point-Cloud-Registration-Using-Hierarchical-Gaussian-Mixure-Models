@@ -1,4 +1,4 @@
-## Incremental-Visual-Inertial-3D-Mesh-Generation-with-Structural-Regularities
+## GPU-Accelerated-Point-Cloud-Registration-Using-Hierarchical-Gaussian-Mixure-Models
 
 Team Members: Somanshu Agarwal, Srinath Rajagopalan, Dhruv Karthik
 
