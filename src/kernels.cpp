@@ -1,3 +1,18 @@
+#define GLM_FORCE_CUDA
+#include <stdio.h>
+#include <cuda.h>
+#include <cmath>
+#include <glm/glm.hpp>
+#include "utilities.h"
+#include "kernel.h"
+#include "svd3.h"
+#include <thrust/reduce.h>
+#include "kdtree.h"
+#include <glm/vec3.hpp>
+#include <chrono>
+#include <ctime>
+#include <ratio>
+
 void calculateMahalanobisDistance(glm::vec3 a,glm::vec3 b,float* covar) {
 	float *covarInv = inverse(covar);
 	float dist = (a - b);
