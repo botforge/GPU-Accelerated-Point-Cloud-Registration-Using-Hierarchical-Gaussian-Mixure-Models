@@ -46,3 +46,9 @@ namespace utilityCore {
 	extern void printVec4(const glm::vec4 &);
 	extern void printVec3(const glm::vec3 &);
 }
+
+namespace utilsGMM {
+	extern void gaussTranform();
+	extern void transformationToQuaternion();
+	extern void solveL2Distance();
+}

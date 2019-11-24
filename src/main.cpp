@@ -28,6 +28,8 @@ using namespace std;
 #define cpuVersion 0
 #define gpuVersion 1
 #define gpuKDTree 0
+#define singlGMM 0
+#define hierGMM 0
 
 glm::vec3 rotation(-0.5f, 0.5f, 0.3f);
 glm::vec3 translate(0.1f, 0.1f, 0.2f);
